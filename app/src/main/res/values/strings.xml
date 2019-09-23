@@ -1,0 +1,53 @@
+<resources>
+    <string name="pseudoblack">#000900</string>
+    <string name="title_activity_main">Calculator + Game</string>
+    <string name="title_activity_calc">Calculator</string>
+    <string name="title_activity_hutch">Hare Housing</string>
+    <string name="title_activity_hare">Hare Splitting Lab</string>
+    <string name="title_activity_monst">Monster Collector</string>
+    <string name="title_activity_stock">Investments</string>
+    <string name="app_name">StockMania‽</string>
+    <string name="app_nameTwo">Game</string>
+    <string name="a">+</string>
+    <string name="s">-</string>
+    <string name="m">X</string>
+    <string name="attack">Attack</string>
+    <string name="retire">Retire</string>
+    <string name="Status">Status</string>
+    <string name="Breed">Breed</string>
+    <string name="healthplus">Health</string>
+    <string name="armorplus">Armor</string>
+    <string name="attackplus">Attack</string>
+    <string name="critplus">Crit</string>
+    <string name="D">/</string>
+    <string name="K">Mod</string>
+    <string name="k">%</string>
+    <string name="t">12</string>
+    <string name="E">▲♀▼</string>
+    <string name="e"> </string>
+    <string name="lights">💡</string>
+    <string name="N">%</string>
+    <string name="dummy">%</string>
+    <string name="percent">%</string>
+    <string name="X">= Inaccuracy warning</string>
+    <string name="SG">Game</string>
+    <string name="Buy">Buy</string>
+    <string name="Give">Grant Money</string>
+    <string name="TakeMoney">Reduce Money</string>
+    <string name="SellAll">Sell Stocks</string>
+    <string name="Crash">Crash Stocks</string>
+    <string name="O">1</string>
+    <string name="Sell">Sell</string>
+    <string name="Progress">Progress</string>
+    <string name="Beg">Beg</string>
+    <string name="Reset">RESET</string>
+      <string name="Bank">Bank</string>
+      <string name="Gamble">Gamble</string>
+    <string name="Loan">Loan</string>
+    <string name="Take">Take</string>
+    <string name="Fill">Fill</string>
+    <string name="Pay">Pay</string>
+    <string name="TestString">You bought %1$s shares of %2$s</string>
+    <string name="Quant">Quantity</string>
+
+</resources>

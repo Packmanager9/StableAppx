@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:label="@string/app_name"
+tools:context=".Main2Activity">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:orientation="vertical">
+        <TextView
+
+            android:id="@+id/DisplaySelectedName"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp" />
+        <TextView
+
+            android:id="@+id/DisplaySelectedSex"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp" />
+        <TextView
+
+            android:id="@+id/DisplaySelectedSize"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp" />
+        <TextView
+
+            android:id="@+id/DisplaySelectedBodyColor"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp" />
+        <TextView
+
+            android:id="@+id/DisplaySelectedEarColor"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp" />
+        <TextView
+
+            android:id="@+id/DisplaySelectedEyeColor"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp" />
+        <TextView
+
+            android:id="@+id/DisplaySelectedTailColor"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp" />
+
+        <TextView
+
+            android:id="@+id/DisplaySelectedAlphas"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp" />
+
+        <TextView
+
+            android:id="@+id/DisplaySelectedPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp" />
+
+
+
+
+
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="100dp">
+        <FrameLayout
+            android:id="@+id/DisplayBabyLargeButtonFrame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:id="@+id/DisplayBabyBodyLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                app:srcCompat="@android:color/transparent"
+                android:background="@null"/>
+
+            <ImageButton
+                android:id="@+id/DisplayBabyEarsLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                app:srcCompat="@android:color/transparent"
+                android:background="@null"/>
+
+            <ImageButton
+                android:id="@+id/DisplayBabyEyesLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                app:srcCompat="@android:color/transparent"
+                android:background="@null"/>
+
+            <ImageButton
+                android:id="@+id/DisplayBabyTailLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                app:srcCompat="@android:color/transparent"
+                android:background="@null"/>
+        </FrameLayout>
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/DisplaySex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="436dp"/>
+
+    <Button
+
+        android:id="@+id/Display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="456dp"
+        android:text="Next"/>
+    <Button
+
+        android:id="@+id/DisplayPast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="456dp"
+        android:text="Last"/>
+
+    <Button
+
+        android:id="@+id/PickLola"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="456dp"
+        android:layout_marginStart="300dp"
+        android:text="Right"/>
+    <Button
+
+        android:id="@+id/PickHairy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="456dp"
+        android:text="Left"/>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <FrameLayout
+
+        android:id="@+id/DisplayBabyOneButtonFrame"
+        android:layout_width="100dp"
+        android:layout_height="100dp">
+    <ImageButton
+        android:id="@+id/DisplayBabyOneBody"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:color/transparent"
+        android:background="@null"/>
+
+    <ImageButton
+        android:id="@+id/DisplayBabyOneEars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:color/transparent"
+        android:background="@null"/>
+
+    <ImageButton
+        android:id="@+id/DisplayBabyOneEyes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:color/transparent"
+        android:background="@null"/>
+    <ImageButton
+        android:id="@+id/DisplayBabyOneTail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:color/transparent"
+        android:background="@null"/>
+
+    </FrameLayout>
+</FrameLayout>
+
+</LinearLayout>
+
+    <FrameLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="100dp">
+    <FrameLayout
+        android:id="@+id/DisplayBabyThreeButtonFrame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/DisplayBabyThreeBody"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@android:color/transparent"
+            android:background="@null"/>
+
+        <ImageButton
+            android:id="@+id/DisplayBabyThreeEars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@android:color/transparent"
+            android:background="@null"/>
+
+        <ImageButton
+            android:id="@+id/DisplayBabyThreeEyes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@android:color/transparent"
+            android:background="@null"/>
+
+        <ImageButton
+            android:id="@+id/DisplayBabyThreeTail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@android:color/transparent"
+            android:background="@null"/>
+    </FrameLayout>
+</FrameLayout>
+    
+    <FrameLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="200dp">
+    <FrameLayout
+        android:id="@+id/DisplayBabyFourButtonFrame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/DisplayBabyFourBody"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@android:color/transparent"
+            android:background="@null"/>
+
+        <ImageView
+            android:id="@+id/DisplayBabyFourEars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@android:color/transparent"
+            android:background="@null"/>
+
+        <ImageView
+            android:id="@+id/DisplayBabyFourEyes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@android:color/transparent"
+            android:background="@null"/>
+
+        <ImageButton
+            android:id="@+id/DisplayBabyFourTail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@android:color/transparent"
+            android:background="@null"/>
+    </FrameLayout>
+</FrameLayout>
+ <FrameLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="300dp">
+    <FrameLayout
+        android:id="@+id/DisplayBabyFiveButtonFrame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/DisplayBabyFiveBody"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"/>
+
+        <ImageView
+            android:id="@+id/DisplayBabyFiveEars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"/>
+
+        <ImageView
+            android:id="@+id/DisplayBabyFiveEyes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"/>
+
+        <ImageButton
+            android:id="@+id/DisplayBabyFiveTail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@android:color/transparent"
+            android:background="@null"/>
+    </FrameLayout>
+</FrameLayout>
+
+
+<FrameLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="300dp">
+    <FrameLayout
+        android:id="@+id/DisplayBabySixButtonFrame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/DisplayBabySixBody"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"/>
+
+        <ImageView
+            android:id="@+id/DisplayBabySixEars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"/>
+
+        <ImageView
+            android:id="@+id/DisplayBabySixEyes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"/>
+
+        <ImageButton
+            android:id="@+id/DisplayBabySixTail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@android:color/transparent"
+            android:background="@null"/>
+    </FrameLayout>
+</FrameLayout>
+
+
+<FrameLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="200dp">
+    <FrameLayout
+        android:id="@+id/DisplayBabySevenButtonFrame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/DisplayBabySevenBody"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"/>
+
+        <ImageView
+            android:id="@+id/DisplayBabySevenEars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"/>
+
+        <ImageView
+            android:id="@+id/DisplayBabySevenEyes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"/>
+
+        <ImageButton
+            android:id="@+id/DisplayBabySevenTail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@android:color/transparent"
+            android:background="@null"/>
+    </FrameLayout>
+</FrameLayout>
+
+
+
+
+<FrameLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="100dp">
+    <FrameLayout
+        android:id="@+id/DisplayBabyEightButtonFrame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/DisplayBabyEightBody"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@android:color/transparent"
+            android:background="@null"/>
+
+        <ImageView
+            android:id="@+id/DisplayBabyEightEars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@android:color/transparent"
+            android:background="@null"/>
+
+        <ImageView
+            android:id="@+id/DisplayBabyEightEyes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@android:color/transparent"
+            android:background="@null"/>
+
+        <ImageButton
+            android:id="@+id/DisplayBabyEightTail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@android:color/transparent"
+            android:background="@null"/>
+    </FrameLayout>
+</FrameLayout>
+
+
+
+
+<FrameLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="0dp">
+    <FrameLayout
+        android:id="@+id/DisplayBabyTwoButtonFrame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/DisplayBabyTwoBody"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@android:color/transparent"
+            android:background="@null"/>
+
+        <ImageButton
+            android:id="@+id/DisplayBabyTwoEars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@android:color/transparent"
+            android:background="@null"/>
+
+        <ImageButton
+            android:id="@+id/DisplayBabyTwoEyes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@android:color/transparent"
+            android:background="@null"/>
+        <ImageButton
+            android:id="@+id/DisplayBabyTwoTail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@android:color/transparent"
+            android:background="@null"/>
+    </FrameLayout>
+</FrameLayout>
+
+
+<FrameLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="0dp">
+    <FrameLayout
+        android:id="@+id/DisplayBabyNineButtonFrame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/DisplayBabyNineBody"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@android:color/transparent"
+            android:background="@null"/>
+
+        <ImageButton
+            android:id="@+id/DisplayBabyNineEars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@android:color/transparent"
+            android:background="@null"/>
+
+        <ImageButton
+            android:id="@+id/DisplayBabyNineEyes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@android:color/transparent"
+            android:background="@null"/>
+        <ImageButton
+            android:id="@+id/DisplayBabyNineTail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@android:color/transparent"
+            android:background="@null"/>
+    </FrameLayout>
+</FrameLayout>
+
+
+
+
+
+
+<FrameLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="300dp">
+    <FrameLayout
+        android:id="@+id/DisplayBabySixteenButtonFrame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/DisplayBabySixteenBody"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@android:color/transparent"
+            android:background="@null"/>
+
+        <ImageButton
+            android:id="@+id/DisplayBabySixteenEars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@android:color/transparent"
+            android:background="@null"/>
+
+        <ImageButton
+            android:id="@+id/DisplayBabySixteenEyes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@android:color/transparent"
+            android:background="@null"/>
+        <ImageButton
+            android:id="@+id/DisplayBabySixteenTail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@android:color/transparent"
+            android:background="@null"/>
+    </FrameLayout>
+</FrameLayout>
+
+
+
+<FrameLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="200dp">
+    <FrameLayout
+        android:id="@+id/DisplayBabyFifteenButtonFrame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/DisplayBabyFifteenBody"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@android:color/transparent"
+            android:background="@null"/>
+
+        <ImageButton
+            android:id="@+id/DisplayBabyFifteenEars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@android:color/transparent"
+            android:background="@null"/>
+
+        <ImageButton
+            android:id="@+id/DisplayBabyFifteenEyes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@android:color/transparent"
+            android:background="@null"/>
+        <ImageButton
+            android:id="@+id/DisplayBabyFifteenTail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@android:color/transparent"
+            android:background="@null"/>
+    </FrameLayout>
+</FrameLayout>
+
+
+
+<FrameLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="100dp">
+    <FrameLayout
+        android:id="@+id/DisplayBabyFourteenButtonFrame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/DisplayBabyFourteenBody"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@android:color/transparent"
+            android:background="@null"/>
+
+        <ImageButton
+            android:id="@+id/DisplayBabyFourteenEars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@android:color/transparent"
+            android:background="@null"/>
+
+        <ImageButton
+            android:id="@+id/DisplayBabyFourteenEyes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@android:color/transparent"
+            android:background="@null"/>
+        <ImageButton
+            android:id="@+id/DisplayBabyFourteenTail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@android:color/transparent"
+            android:background="@null"/>
+    </FrameLayout>
+</FrameLayout>
+
+
+
+<FrameLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="0dp">
+    <FrameLayout
+        android:id="@+id/DisplayBabyThirteenButtonFrame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/DisplayBabyThirteenBody"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@android:color/transparent"
+            android:background="@null"/>
+
+        <ImageButton
+            android:id="@+id/DisplayBabyThirteenEars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@android:color/transparent"
+            android:background="@null"/>
+
+        <ImageButton
+            android:id="@+id/DisplayBabyThirteenEyes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@android:color/transparent"
+            android:background="@null"/>
+        <ImageButton
+            android:id="@+id/DisplayBabyThirteenTail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@android:color/transparent"
+            android:background="@null"/>
+    </FrameLayout>
+</FrameLayout>
+
+
+
+<FrameLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="300dp">
+    <FrameLayout
+        android:id="@+id/DisplayBabyTwelveButtonFrame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/DisplayBabyTwelveBody"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@android:color/transparent"
+            android:background="@null"/>
+
+        <ImageButton
+            android:id="@+id/DisplayBabyTwelveEars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@android:color/transparent"
+            android:background="@null"/>
+
+        <ImageButton
+            android:id="@+id/DisplayBabyTwelveEyes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@android:color/transparent"
+            android:background="@null"/>
+        <ImageButton
+            android:id="@+id/DisplayBabyTwelveTail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@android:color/transparent"
+            android:background="@null"/>
+    </FrameLayout>
+</FrameLayout>
+
+
+
+<FrameLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="200dp">
+    <FrameLayout
+        android:id="@+id/DisplayBabyElevenButtonFrame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/DisplayBabyElevenBody"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@android:color/transparent"
+            android:background="@null"/>
+
+        <ImageButton
+            android:id="@+id/DisplayBabyElevenEars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@android:color/transparent"
+            android:background="@null"/>
+
+        <ImageButton
+            android:id="@+id/DisplayBabyElevenEyes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@android:color/transparent"
+            android:background="@null"/>
+        <ImageButton
+            android:id="@+id/DisplayBabyElevenTail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@android:color/transparent"
+            android:background="@null"/>
+    </FrameLayout>
+</FrameLayout>
+
+
+
+<FrameLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="100dp">
+    <FrameLayout
+        android:id="@+id/DisplayBabyTenButtonFrame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/DisplayBabyTenBody"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@android:color/transparent"
+            android:background="@null"/>
+
+        <ImageButton
+            android:id="@+id/DisplayBabyTenEars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@android:color/transparent"
+            android:background="@null"/>
+
+        <ImageButton
+            android:id="@+id/DisplayBabyTenEyes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@android:color/transparent"
+            android:background="@null"/>
+        <ImageButton
+            android:id="@+id/DisplayBabyTenTail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@android:color/transparent"
+            android:background="@null"/>
+    </FrameLayout>
+</FrameLayout>
+
+
+
+</RelativeLayout>

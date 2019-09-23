@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/BetA"
+        android:layout_width="64dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="Green"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="440dp" />
+
+    <Button
+        android:id="@+id/BetC"
+        android:layout_width="60dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/BetA"
+        android:text="Blue"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="440dp" />
+
+    <Button
+        android:id="@+id/Play"
+        android:layout_width="74dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Play"
+        android:textSize="7sp"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="440dp" />
+
+    <Button
+        android:id="@+id/mute"
+        android:layout_width="38dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="167dp"
+        android:text="♪"
+        android:textSize="29sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/BetD"
+        android:layout_width="56dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="60dp"
+        android:text="Black"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="320dp"
+        tools:layout_editor_absoluteY="449dp" />
+
+    <Button
+        android:id="@+id/BetB"
+        android:layout_width="62dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:text="Red"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="320dp"
+        tools:layout_editor_absoluteY="449dp" />
+
+    <TextView
+        android:id="@+id/circleBig"
+        android:layout_width="105dp"
+        android:layout_height="126dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="135dp"
+        android:text="○"
+        android:textSize="100sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="355dp" />
+
+    <TextView
+        android:id="@+id/gameoutput"
+        android:layout_width="81dp"
+        android:layout_height="26dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/moneyview"
+        android:layout_marginBottom="150dp"
+        android:text=""
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="355dp" />
+
+    <TextView
+        android:id="@+id/quant"
+        android:layout_width="34dp"
+        android:layout_height="26dp"
+        android:layout_alignBaseline="@+id/editTextBox"
+        android:layout_toStartOf="@+id/Play"
+        android:text="Bet"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="355dp" />
+
+    <EditText
+        android:id="@+id/editTextBox"
+        android:layout_width="93dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="197dp"
+        android:layout_marginEnd="123dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/O"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/moneyview"
+        android:layout_width="90dp"
+        android:layout_height="33dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="94dp"
+        android:layout_marginEnd="101dp"
+        android:text=""
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="395dp" />
+
+    <ImageView
+        android:id="@+id/BetGreenIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/BetA"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="21dp"
+        android:rotation="180"
+        app:srcCompat="@drawable/uparrow" />
+
+    <ImageView
+        android:id="@+id/BetBlueIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_above="@+id/BetA"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="73dp"
+        android:rotation="90"
+        android:tint="@color/colorPrimary"
+        app:srcCompat="@drawable/sidewaysarrow" />
+
+    <ImageView
+        android:id="@+id/BetBlackIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/BetA"
+        android:tint="#000000"
+        android:rotation="90"
+        android:layout_marginStart="-101dp"
+        android:layout_toEndOf="@+id/moneyview"
+        app:srcCompat="@drawable/sidewaysarrow" />
+
+    <ImageView
+        android:id="@+id/BetRedIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/BetA"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="22dp"
+        app:srcCompat="@drawable/downarrow" />
+
+
+</RelativeLayout>

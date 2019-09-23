@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageButton
+        android:id="@+id/Current"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="320dp"
+
+        android:adjustViewBounds="true"
+android:scaleType="fitXY"
+            
+                android:backgroundTint="#e0e0e0"/>
+
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="240dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/box0101"
+                android:layout_width="60dp"
+
+                android:layout_height="60dp"
+android:adjustViewBounds="true"
+android:scaleType="fitXY"
+            
+                android:backgroundTint="#e0e0e0" />
+
+            <TextView
+                android:id="@+id/text0101"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content" />
+
+            <ImageButton
+                android:id="@+id/box0102"
+                android:layout_width="60dp"
+
+                android:layout_height="60dp"
+android:adjustViewBounds="true"
+android:scaleType="fitXY"
+            
+                android:backgroundTint="#e0e0e0" />
+
+
+            <TextView
+                android:id="@+id/text0102"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content" />
+            <ImageButton
+                android:id="@+id/box0103"
+                android:layout_width="60dp"
+
+                android:layout_height="60dp"
+android:adjustViewBounds="true"
+android:scaleType="fitXY"
+            
+                android:backgroundTint="#e0e0e0" />
+
+
+            <TextView
+                android:id="@+id/text0103"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content" />
+            <ImageButton
+                android:id="@+id/box0104"
+                android:layout_width="60dp"
+
+                android:layout_height="60dp"
+android:adjustViewBounds="true"
+android:scaleType="fitXY"
+            
+                android:backgroundTint="#e0e0e0" />
+
+            <TextView
+                android:id="@+id/text0104"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/box0201"
+                android:layout_width="60dp"
+
+                android:layout_height="60dp"
+android:adjustViewBounds="true"
+android:scaleType="fitXY"
+            
+                android:backgroundTint="#e0e0e0" />
+
+            <TextView
+                android:id="@+id/text0201"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content" />
+
+            <ImageButton
+                android:id="@+id/box0202"
+                android:layout_width="60dp"
+
+                android:layout_height="60dp"
+android:adjustViewBounds="true"
+android:scaleType="fitXY"
+            
+                android:backgroundTint="#e0e0e0" />
+
+
+            <TextView
+                android:id="@+id/text0202"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content" />
+            <ImageButton
+                android:id="@+id/box0203"
+                android:layout_width="60dp"
+
+                android:layout_height="60dp"
+android:adjustViewBounds="true"
+android:scaleType="fitXY"
+            
+                android:backgroundTint="#e0e0e0" />
+
+
+            <TextView
+                android:id="@+id/text0203"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content" />
+            <ImageButton
+                android:id="@+id/box0204"
+                android:layout_width="60dp"
+
+                android:layout_height="60dp"
+android:adjustViewBounds="true"
+android:scaleType="fitXY"
+            
+                android:backgroundTint="#e0e0e0" />
+
+            <TextView
+                android:id="@+id/text0204"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/box0301"
+                android:layout_width="60dp"
+
+                android:layout_height="60dp"
+android:adjustViewBounds="true"
+android:scaleType="fitXY"
+            
+                android:backgroundTint="#e0e0e0" />
+
+            <TextView
+                android:id="@+id/text0301"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content" />
+
+            <ImageButton
+                android:id="@+id/box0302"
+                android:layout_width="60dp"
+
+                android:layout_height="60dp"
+android:adjustViewBounds="true"
+android:scaleType="fitXY"
+            
+                android:backgroundTint="#e0e0e0" />
+
+
+            <TextView
+                android:id="@+id/text0302"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content" />
+            <ImageButton
+                android:id="@+id/box0303"
+                android:layout_width="60dp"
+
+                android:layout_height="60dp"
+android:adjustViewBounds="true"
+android:scaleType="fitXY"
+            
+                android:backgroundTint="#e0e0e0" />
+
+
+            <TextView
+                android:id="@+id/text0303"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content" />
+            <ImageButton
+                android:id="@+id/box0304"
+                android:layout_width="60dp"
+
+                android:layout_height="60dp"
+android:adjustViewBounds="true"
+android:scaleType="fitXY"
+            
+                android:backgroundTint="#e0e0e0" />
+
+            <TextView
+                android:id="@+id/text0304"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/box0401"
+                android:layout_width="60dp"
+
+                android:layout_height="60dp"
+android:adjustViewBounds="true"
+android:scaleType="fitXY"
+            
+                android:backgroundTint="#e0e0e0" />
+
+            <TextView
+                android:id="@+id/text0401"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content" />
+
+            <ImageButton
+                android:id="@+id/box0402"
+                android:layout_width="60dp"
+
+                android:layout_height="60dp"
+android:adjustViewBounds="true"
+android:scaleType="fitXY"
+            
+                android:backgroundTint="#e0e0e0" />
+
+
+            <TextView
+                android:id="@+id/text0402"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content" />
+            <ImageButton
+                android:id="@+id/box0403"
+                android:layout_width="60dp"
+
+                android:layout_height="60dp"
+android:adjustViewBounds="true"
+android:scaleType="fitXY"
+            
+                android:backgroundTint="#e0e0e0" />
+
+
+            <TextView
+                android:id="@+id/text0403"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content" />
+            <ImageButton
+                android:id="@+id/box0404"
+                android:layout_width="60dp"
+
+                android:layout_height="60dp"
+android:adjustViewBounds="true"
+android:scaleType="fitXY"
+            
+                android:backgroundTint="#e0e0e0" />
+
+            <TextView
+                android:id="@+id/text0404"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+    <Button
+
+        android:id="@+id/SelectButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:text="Select"
+        android:layout_marginStart="260dp"/>
+
+
+    <EditText
+        android:id="@+id/editTextBox"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="#000000"
+        android:inputType="number"
+        android:text=""
+        android:textStyle="bold"
+        android:layout_marginTop="250dp"
+        android:layout_marginStart="260dp"
+        android:defaultFocusHighlightEnabled="false"/>
+
+</RelativeLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/PrintOut"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="47dp"
+        android:layout_marginStart="21dp" />
+
+    <Button
+        android:id="@+id/Custom"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text="Custom"
+        android:layout_marginTop="54dp" />
+
+    <ImageButton
+        android:id="@+id/Desktop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="54dp"
+        android:contentDescription="Desk"
+        app:srcCompat="@android:color/transparent"/>
+    <Button
+        android:id="@+id/DynamicsButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text="Dynamics"
+        android:layout_marginTop="104dp" />
+
+    <Button
+        android:id="@+id/ReturnButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:text="Return"/>
+
+    <Button
+        android:id="@+id/PrintOutButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="69dp"
+        android:layout_toEndOf="@+id/PrintOut" />
+
+    <Button
+        android:id="@+id/PrintOutButtonDos"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/PrintOutButton"
+        android:layout_marginTop="-69dp"
+        android:layout_toEndOf="@+id/PrintOut" />
+
+    <Button
+        android:id="@+id/StoreButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="209dp" />
+    <Button
+        android:id="@+id/MoveDex"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="209dp" />
+
+    <ImageButton
+        android:id="@+id/Capsule"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="299dp" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="73dp">
+
+
+
+
+
+
+
+
+    </ScrollView>
+
+</RelativeLayout>

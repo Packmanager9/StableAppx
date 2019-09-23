@@ -1,0 +1,999 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:label="@string/app_nameTwo"
+    tools:context=".StockManiaActivity">
+
+
+    <ImageView
+        android:id="@+id/Indicator"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="305dp"/>
+    <Button
+        android:id="@+id/graphbutton"
+        android:layout_width="106dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginStart="300dp"
+        android:text="Rotate Graph"
+        android:textSize="9sp"/>
+    <Button
+        android:id="@+id/graphaxisbutton"
+        android:layout_width="106dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginStart="194dp"
+        android:text="Scale Graph"
+        android:textSize="9sp"/>
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/graph0"
+        android:layout_width="340dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentStart="true"/>
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/graph1"
+        android:layout_width="340dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentStart="true"/>
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/graph2"
+        android:layout_width="340dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentStart="true"/>
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/graph3"
+        android:layout_width="340dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentStart="true"/>
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/graph4"
+        android:layout_width="340dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentStart="true"/>
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/graph5"
+        android:layout_width="340dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentStart="true"/>
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/graph6"
+        android:layout_width="340dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentStart="true"/>
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/graph7"
+        android:layout_width="340dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:id="@+id/TW06"
+        android:layout_width="60dp"
+        android:layout_height="44dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="1dp"
+        android:text="" />
+
+
+    <TextView
+        android:id="@+id/TW04"
+        android:layout_width="61dp"
+        android:layout_height="48dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/TW10"
+        android:layout_width="61dp"
+        android:layout_height="48dp"
+        android:text="" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="238dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="238dp"
+
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/Fill"
+                android:layout_width="61dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:text="@string/Fill"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Take"
+                android:layout_width="61dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:text="@string/Take"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Loan"
+                android:layout_width="61dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:text="@string/Loan"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Pay"
+                android:layout_width="61dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:text="@string/Pay"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/BankView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="0dp"
+            android:text="tea"
+            android:textColor="#000900"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+
+
+
+    <TextView
+        android:id="@+id/Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="73dp"
+        android:layout_marginTop="183dp"
+        android:text=""
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:id="@+id/Increaser"
+        android:layout_width="124dp"
+        android:layout_height="44dp"
+        android:layout_alignTop="@+id/Text"
+        android:text=""
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/DailyPaper"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="18dp"
+        android:text=""
+        android:textStyle="bold"/>
+        <LinearLayout
+            android:layout_width="70dp"
+            android:layout_height="169dp"
+
+            android:layout_marginStart="340dp"
+            android:layout_marginTop="-86dp"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="18dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/Day"
+                    android:layout_width="wrap_content"
+                    android:layout_height="18dp"
+                    android:textColor="#000900"
+                    android:textSize="12sp"
+
+                    android:text="" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/Reset"
+                android:layout_width="68dp"
+                android:layout_height="38dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:text="@string/Reset"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="70dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="-10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/NextGame"
+                    android:layout_width="38dp"
+                    android:layout_height="55dp"
+                    android:layout_marginEnd="0dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:text="␦"
+                    android:textSize="29sp" />
+
+
+                <Button
+                    android:id="@+id/Mute"
+                    android:layout_width="38dp"
+                    android:layout_height="55dp"
+                    android:layout_marginStart="-8dp"
+                    android:layout_marginTop="0dp"
+                    android:text="♪"
+                    android:textSize="29sp" />
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/Gamble"
+                android:layout_width="68dp"
+                android:layout_height="38dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="-10dp"
+                android:text="@string/Gamble"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/bank"
+                android:layout_width="68dp"
+                android:layout_height="38dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="-9dp"
+                android:text="@string/Bank"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+
+
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="-100dp"
+        android:layout_marginStart="0dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/circleSmall"
+            android:layout_width="55dp"
+            android:layout_height="132dp"
+            android:layout_marginTop="-10dp"
+            android:layout_marginStart="30dp"
+            android:text="○"
+            android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/Circle"
+        android:layout_width="65dp"
+        android:layout_height="123dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginStart="-70dp"
+        android:text="○"
+        android:textSize="100sp"/>
+
+    <TextView
+        android:id="@+id/circleBig"
+        android:layout_width="115dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="-80dp"
+        android:text="○"
+        android:textSize="140sp" />
+
+        <TextView
+            android:id="@+id/pen4"
+            android:layout_width="95dp"
+            android:layout_height="86dp"
+            android:layout_marginTop="-95dp"
+            android:layout_marginStart="20dp"
+            android:text="" />
+
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="312dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="90dp"
+            android:layout_marginTop="-40dp"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/day"
+                    android:layout_width="81dp"
+                    android:layout_height="48dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:text="@string/Quant"
+                    android:textColor="#555555" />
+
+
+                <EditText
+                    android:id="@+id/editTextBox"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="-30dp"
+                    android:layout_marginTop="0dp"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:text="@string/O"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="106dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="0dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/NextDay"
+                    android:layout_width="106dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:text="@string/Progress"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/Beg"
+                    android:layout_width="106dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="40dp"
+                    android:text="@string/Beg"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="-100dp"
+            android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/List"
+                android:layout_width="221dp"
+                android:layout_height="78dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="60dp"
+                android:text=""
+                android:textColor="#000900"
+                android:textStyle="bold" />
+                <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:orientation="horizontal">
+                 <TextView
+                android:id="@+id/PortView"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="0dp"
+                android:textColor="#000000"
+                android:text=""
+                android:textStyle="bold"/>
+
+                    <TextView
+                android:id="@+id/PortViewValue"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="80dp"
+                android:textColor="#000000"
+                android:text=""
+                android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="238dp"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="55dp"
+                    android:layout_height="238dp"
+                    android:layout_marginStart="0dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/StockSINE"
+                        android:layout_width="98dp"
+                        android:layout_height="18dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:text=""
+                        android:textColor="#cc0000"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/Stock1"
+                        android:layout_width="100dp"
+                        android:layout_height="18dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="18dp"
+                        android:text=""
+                        android:textColor="#ff7722"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/Stock2"
+                        android:layout_width="98dp"
+                        android:layout_height="18dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="18dp"
+                        android:text=""
+                        android:textColor="#ccaa00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/Stock3"
+                        android:layout_width="98dp"
+                        android:layout_height="18dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="18dp"
+                        android:text=""
+                        android:textColor="#00aa00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/Stock4"
+                        android:layout_width="97dp"
+                        android:layout_height="18dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="18dp"
+                        android:text=""
+                        android:textColor="#0099aa"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/Stock5"
+                        android:layout_width="96dp"
+                        android:layout_height="18dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="18dp"
+                        android:text=""
+                        android:textColor="#0000ff"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/Stock6"
+                        android:layout_width="97dp"
+                        android:layout_height="18dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="18dp"
+                        android:text=""
+                        android:textColor="#aa00ff"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="238dp"
+                    android:layout_marginStart="10dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/QSINE"
+                        android:layout_width="128dp"
+                        android:layout_height="18dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:text=""
+                        android:textColor="#cc0000"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/Q1"
+                        android:layout_width="128dp"
+                        android:layout_height="18dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="18dp"
+                        android:text=""
+                        android:textColor="#ff7722"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/Q2"
+                        android:layout_width="134dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="18dp"
+                        android:text=""
+                        android:textColor="#ccaa00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/Q3"
+                        android:layout_width="128dp"
+                        android:layout_height="18dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="18dp"
+                        android:text=""
+                        android:textColor="#00aa00"
+                        android:textStyle="bold"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/Q4"
+                        android:layout_width="128dp"
+                        android:layout_height="18dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="18dp"
+                        android:text=""
+                        android:textColor="#0099aa"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/Q5"
+                        android:layout_width="128dp"
+                        android:layout_height="18dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="18dp"
+                        android:text=""
+                        android:textColor="#0000ff"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/TW"
+                        android:layout_width="124dp"
+                        android:layout_height="18dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="18dp"
+                        android:text=""
+                        android:textColor="#aa00ff"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="86dp"
+                    android:layout_height="238dp"
+                    android:layout_marginStart="-5dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/penSINE"
+                        android:layout_width="86dp"
+                        android:layout_height="18dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:text=""
+                        android:textColor="#cc0000"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/pen"
+                        android:layout_width="86dp"
+                        android:layout_height="18dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="18dp"
+                        android:text=""
+                        android:textColor="#ff7722"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/pen9"
+                        android:layout_width="86dp"
+                        android:layout_height="18dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="18dp"
+                        android:text=""
+                        android:textColor="#ccaa00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/pen8"
+                        android:layout_width="86dp"
+                        android:layout_height="18dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="18dp"
+                        android:text=""
+                        android:textColor="#00aa00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/pen7"
+                        android:layout_width="86dp"
+                        android:layout_height="18dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="18dp"
+                        android:text=""
+                        android:textColor="#0099aa"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/pen5"
+                        android:layout_width="86dp"
+                        android:layout_height="18dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="18dp"
+                        android:text=""
+                        android:textColor="#0000ff"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/pen6"
+                        android:layout_width="86dp"
+                        android:layout_height="18dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="18dp"
+                        android:text=""
+                        android:textColor="#aa00ff"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="25dp"
+                    android:layout_height="238dp"
+                    android:layout_marginStart="-9dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/SineArrow"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        app:srcCompat="@android:color/transparent" />
+
+                    <ImageView
+                        android:id="@+id/TurtleArrow"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="10.3dp"
+                        app:srcCompat="@android:color/transparent" />
+
+                    <ImageView
+                        android:id="@+id/DiceArrow"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="10.3dp"
+                        app:srcCompat="@android:color/transparent" />
+
+                    <ImageView
+                        android:id="@+id/BitcoinArrow"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="10.3dp"
+                        app:srcCompat="@android:color/transparent" />
+
+                    <ImageView
+                        android:id="@+id/PlantArrow"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="10.3dp"
+                        app:srcCompat="@android:color/transparent" />
+
+                    <ImageView
+                        android:id="@+id/LossArrow"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="10.3dp"
+                        app:srcCompat="@android:color/transparent" />
+
+                    <ImageView
+                        android:id="@+id/HairArrow"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="10.3dp"
+                        app:srcCompat="@android:color/transparent" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="60dp"
+
+                    android:layout_height="238dp"
+                    android:layout_marginStart="7dp"
+                    android:orientation="vertical">
+
+
+                    <Button
+                        android:id="@+id/buySINE"
+                        android:layout_width="60dp"
+
+                        android:layout_height="35dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="-5dp"
+                        android:text="@string/Buy"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/buyTRTL"
+                        android:layout_width="60dp"
+
+                        android:layout_height="35dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:text="@string/Buy"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/buyDICE"
+                        android:layout_width="60dp"
+
+                        android:layout_height="35dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:text="@string/Buy"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+
+                    <Button
+                        android:id="@+id/buyBTC"
+                        android:layout_width="60dp"
+
+                        android:layout_height="35dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:text="@string/Buy"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/buyPLNT"
+                        android:layout_width="60dp"
+
+                        android:layout_height="35dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:text="@string/Buy"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/buyLUZE"
+                        android:layout_width="60dp"
+
+                        android:layout_height="35dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:text="@string/Buy"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/buyHARE"
+                        android:layout_width="60dp"
+
+                        android:layout_height="35dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:text="@string/Buy"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="60dp"
+
+                    android:layout_height="238dp"
+                    android:layout_marginEnd="0dp"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/sellSINE"
+                        android:layout_width="60dp"
+
+                        android:layout_height="35dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="-5dp"
+                        android:text="@string/Sell"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/sellTRTL"
+                        android:layout_width="60dp"
+
+                        android:layout_height="35dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:text="@string/Sell"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/sellDICE"
+                        android:layout_width="60dp"
+
+                        android:layout_height="35dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:text="@string/Sell"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/SellBTC"
+                        android:layout_width="60dp"
+
+                        android:layout_height="35dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:text="@string/Sell"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/sellPLNT"
+                        android:layout_width="60dp"
+
+                        android:layout_height="35dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:text="@string/Sell"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/sellLUZE"
+                        android:layout_width="60dp"
+
+                        android:layout_height="35dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:text="@string/Sell"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/SellHARE"
+                        android:layout_width="60dp"
+
+                        android:layout_height="35dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:text="@string/Sell"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </LinearLayout>
+          </LinearLayout>
+
+        </LinearLayout>
+
+</LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/pen3"
+        android:layout_width="61dp"
+        android:layout_height="48dp"
+        android:text=""
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/pen2"
+        android:layout_width="75dp"
+        android:layout_height="37dp"
+
+        android:layout_alignTop="@+id/Text"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:textStyle="bold"/>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

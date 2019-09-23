@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:label="@string/app_name"
+    tools:context=".Main2Activity">
+
+
+    <TextView
+        android:id="@+id/Level"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:textColor="#000900"
+        android:textSize="12sp"
+        android:text="Level 1" />
+
+    <EditText
+        android:id="@+id/int3"
+        android:layout_width="155dp"
+        android:layout_height="46dp"
+        android:layout_alignStart="@+id/int4"
+        android:layout_below="@+id/int4"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <EditText
+        android:id="@+id/int4"
+        android:layout_width="155dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="450dp"
+        android:ems="10"
+        android:inputType="number"
+        android:labelFor="@+id/int2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/int3" />
+
+
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="232dp"
+        android:layout_height="75dp"
+        android:layout_centerInParent="true"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#090909"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/ChangeSongButton"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/int3"
+        android:layout_below="@+id/int3"
+        android:text="@string/m"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp">
+    <LinearLayout
+
+        android:id="@+id/FightLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/PlayerMech"
+            android:layout_width="80dp"
+            android:layout_height="210dp"
+            android:layout_gravity="center"/>
+
+
+        <LinearLayout
+
+            android:id="@+id/FightLayoutWeapon"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+        <ImageView
+            android:id="@+id/PlayerWeapon"
+            android:layout_width="100dp"
+            android:layout_height="210dp"
+            android:layout_gravity="center"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/GagnarWeapon"
+            android:layout_width="60dp"
+            android:layout_height="210dp"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:id="@+id/GagnarShip"
+            android:layout_width="80dp"
+            android:layout_height="210dp"
+            android:layout_gravity="center"/>
+
+
+
+
+    </LinearLayout>
+    </LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="169dp"
+    android:layout_marginStart="0dp"
+    android:layout_marginTop="230dp"
+    android:orientation="horizontal">
+
+
+
+    <Button
+        android:id="@+id/HealthPlus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/healthplus"
+        app:layout_constraintEnd_toEndOf="parent" />
+    <Button
+        android:id="@+id/AttackPlus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/attackplus"
+        app:layout_constraintEnd_toEndOf="parent" />
+    <Button
+        android:id="@+id/ArmorPlus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/armorplus"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/CritPlus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/critplus"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="169dp"
+    android:layout_marginTop="460dp"
+    android:layout_marginStart="160dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/EnemyHealth"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:textColor="#000900"
+        android:textSize="12sp"
+        android:text="Gagnar" />
+
+    <TextView
+        android:id="@+id/PlayerHealth"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:textColor="#000900"
+        android:textSize="12sp"
+        android:text="You" />
+
+
+
+    <TextView
+    android:id="@+id/emptyspacer"
+    android:layout_width="wrap_content"
+    android:layout_height="50dp"
+    android:textColor="#000900"
+    android:textSize="12sp"
+    android:text="" />
+
+    <TextView
+    android:id="@+id/CritIndicator"
+    android:layout_width="wrap_content"
+    android:layout_height="18dp"
+    android:textColor="#000900"
+    android:textSize="12sp"
+    android:text="Fight!" />
+    <TextView
+    android:id="@+id/EnemyActivityIndicator"
+    android:layout_width="wrap_content"
+    android:layout_height="18dp"
+    android:textColor="#000900"
+    android:textSize="12sp"
+    android:text=" " />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="169dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="286dp"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/Stats"
+            android:layout_marginTop="0dp"
+            android:layout_marginStart="300dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Status"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/HealthIndicator"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:textColor="#000900"
+            android:textSize="12sp"
+            android:text=" " />
+
+        <TextView
+            android:id="@+id/DamageIndicator"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:textColor="#000900"
+            android:textSize="12sp"
+            android:text=" " />
+
+        <TextView
+            android:id="@+id/ArmorIndicator"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:textColor="#000900"
+            android:textSize="12sp"
+            android:text=" " />
+
+        <TextView
+            android:id="@+id/CritIndicatorstats"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:textColor="#000900"
+            android:textSize="12sp"
+            android:text=" " />
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Attack"
+        android:layout_marginTop="386dp"
+        android:layout_marginStart="300dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/attack"
+        app:layout_constraintEnd_toEndOf="parent" />
+    <Button
+        android:id="@+id/Defend"
+        android:layout_marginTop="426dp"
+        android:layout_marginStart="300dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Defend"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/Retire"
+        android:layout_marginTop="496dp"
+        android:layout_marginStart="300dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/retire"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="400dp">
+    <TextView
+        android:id="@+id/Oone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#000900"
+        android:textSize="50sp"
+        android:text="○" />
+    <TextView
+        android:id="@+id/Otwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000900"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:text="○" />
+    <TextView
+        android:id="@+id/Othree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000900"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:text="○" />
+</LinearLayout>
+</RelativeLayout>
+

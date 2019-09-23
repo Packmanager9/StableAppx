@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.jjoe64.graphview.GraphView
+
+        android:id="@+id/Graphh"
+        android:layout_width="400dp"
+        android:layout_height="460dp" />
+    <Button
+
+        android:id="@+id/StartButton"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="460dp"
+        android:text="Start"/>
+    <Button
+
+        android:id="@+id/StopButton"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="490dp"
+        android:text="Stop"/>
+
+</RelativeLayout>
